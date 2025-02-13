@@ -1,6 +1,7 @@
 import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
+import a from "./assets/bear-kiss-bear-kisses.gif";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -40,7 +41,7 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img src={a}  alt="GIF Animation"/>
           <div className="text-4xl md:text-6xl font-bold my-4">
             iu vợ iu nhiều nha!!!
           </div>
